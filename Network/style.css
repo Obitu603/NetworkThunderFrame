@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav_content{
+    display: flex;
+    justify-content: center;
+    background-color: #F7F7F7;
+}
+.nav_content ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav_content li{
+    padding: 10px;
+    margin: 10px;
+}
+.nav_content li:hover{
+    transform: scale(0.8);
+    z-index: 2;
+}
+.nav_content a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(78, 75, 75);
+}
+.myfooter{
+	background-color:#F7F7F7;
+	display:flex ;
+	justify-content: center;	
+} 
+.foot h4{
+	color:rgb(78, 75, 75);
+}
+.sec1 img{
+width: 50%;
+height: 400px;
+}
+.leftsec{
+	background-color: rgba(0, 255, 255, 0.188);
+	height: 300px;
+	padding-top: 10px;
+	margin: 40px;
+	border-radius: 10px;
+}
+.leftsec2{
+	background-color: rgba(115, 0, 255, 0.188);
+	height: 300px;
+	padding-top: 10px;
+	margin: 40px;
+	border-radius: 10px;
+}
+.leftsec3{
+	background-color:#1b1e2367;
+	height: 300px;
+	padding-top: 10px;
+	margin: 40px;
+	border-radius: 10px;
+}
+.inner1{
+	background-color: transparent;
+	padding: 10px;
+	margin: 10px;
+
+}
+.inner1 p{
+	background-color: transparent;
+	margin-left: 20%;
+}
+.inner1 img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	
+}
+
+.inner2{
+	background-color: transparent;
+	padding: 10px;
+	margin: 10px;
+
+}
+.inner2 p{
+	background-color: transparent;
+	margin-left: 10%;
+	margin-top: 15%;
+}
+.inner2 img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	float: right;
+}
+.inner3{
+	background-color: transparent;
+	padding: 10px;
+	margin: 10px;
+
+}
+.inner3 p{
+	background-color: transparent;
+	margin-left: 10%;
+}
+.inner3 img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+.sec2{
+	padding: 10px;
+	width: 98%;
+	background-color: rgba(73, 177, 241, 0.394);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 1rem;
+
+}
+.sec2 h1{
+	text-align: center;
+	font-size: 50px;
+	color: #4b434366;
+	padding: 5px;
+	background-color: transparent;
+}
+.sec2 h3{
+	text-align: center;
+	background-color: transparent;
+}
+.sec2 p{
+	background-color: transparent;
+}
+.left{
+	background-color: transparent;
+}
+.center{
+	background-color: transparent;
+}
+.right{
+	background-color: transparent;
+}
